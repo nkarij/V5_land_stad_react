@@ -33,6 +33,7 @@ export default class CountryList extends Component {
                 dataSource: data,
             }, function(){
                 console.log(this.state.dataSource);
+                console.log(this.state.isLoading);
             });
             // console.log(this.state.dataSource);
         })
